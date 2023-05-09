@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat application</title>
+    <link rel="stylesheet" href="chatpage.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="leftdiv">
+           <div id="left1">
+          <img src="s9.png" id="s9"/>
+          <h1 id="we">WeChat</h1>
+          <div>
+            <a href="/grouppage" title="Group"><img src="z2.png" id="z3"/></a>
+        </div>
+          <div>
+            <img src="add2.png" title="Add Friend" id="f"/>
+        </div>
+           <div>
+               <a href="/logout" title="Logout"><img src="logout.png" id="g3"/></a>
+           </div>
+           
+           </div> 
+           <div id="left2">
+             <div >
+                <input type="text" placeholder="Search..." id="search"/>
+             </div>
+             <div id="users">
+
+             </div>
+              </div>
+           </div>
+        
+        <div id="rightdiv">
+            <div id="upper">
+                <div id="u1">
+                    <img src="s8.png" id="s4" />
+                    <%-include('header.ejs',{name:user})%>
+                </div>
+                <div id="u2">
+                    <img src="d1.png" id="l1" title="Call"/>
+                    <img src="c1.png" id="l2" title="Video Call"/>
+                    <!-- <img src="o1.png" id="s8" title="Other" /> -->
+                    <img src="user.png" id="f8" title="Profile" />
+                    <dialog id="dialog">
+                        
+                        <h2 style="margin-top: -1px;margin-left: 45px;text-decoration: underline;">Profile</h2>
+                        <img src="user.png" id="man" title="Profile" />
+                        <div style="display:flex;justify-content: center;align-items: center;margin-bottom: -10px;">
+                            <span>Username:</span>
+                            <h4 id="profileuser"></h4>
+                        </div>
+                        <span>Email:<strong>xyz@gmail.com</strong></span>
+                        <span>Contact:<strong>9123476345</strong></span>
+                        <span>Address:<strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</strong></span>
+                     
+                    </dialog>
+                </div>
+            </div>
+            <div id="lower">
+              <div id="lower1">
+               
+              </div>
+              <div id="lower2">
+                <div>
+                    <img src="link1.png" id="k1"/>
+                    <input type="text" placeholder="Type your message here and press enter..." id="msgtext" required/>
+                    <img src="mic.png" id="voice"/>
+                </div>
+              
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chatpage.js"></script>
+</body>
+
+</html>

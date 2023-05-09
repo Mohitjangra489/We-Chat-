@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat application</title>
+    <link href="login.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 id="lp">Login Page</h1>
+    <div id="d1">
+<div id="ldiv">
+ <img id="limg" src="a3.png"/>
+</div>
+        <div id="rdiv">
+            <h1 id="d">Enter Details</h1>
+            <form method="POST" action = "/login" id="form">
+                <input  placeholder="Username" name="username" id="username" required/>
+                <input  placeholder="Password"  name="password"  id="password" required/>
+                <input  id="submit" type="submit" value="Login" />
+            </form>
+            <span id="or">OR</span>
+            <a href="/signUp">
+                <input  type="submit" id="signup"  value="SignUp" />
+                </a>
+
+                <div id="error">
+                    <%if(error){%>
+                        <div style="position: absolute;margin-left: -50px;
+                        margin-top: 110px; color:red;font-family: cursive;">
+                        <%=error %>
+                        </div>
+                        <%}%>
+                    </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

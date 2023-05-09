@@ -1,0 +1,106 @@
+#h1{
+    color:white;
+    font-family: cursive;
+    font-size: 124px;
+    margin-top: -20px;
+    margin-left: 393px;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    /* text-shadow: 2px 0px 17px rgba(51,216,47,0.68); */
+    text-shadow: 2px 0px 17px rgba(29,247,23,0.68);
+
+
+}
+body{
+   background-color:#71a630;
+    display:flex;
+    justify-content: center;
+}
+#main{
+    height:60%;
+    width:80%;
+    
+}
+#img{
+    width: 350px;
+    height: 350px;
+    margin-top:91px;
+    box-shadow: 2px 0px 17px rgba(29,247,23,0.68);
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+#h2{
+    
+    margin-top: -94px;
+    margin-left: 801px;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 0px 17px rgba(29,247,23,0.68);
+}
+
+#div2{
+    display:flex;
+    flex-direction: column-reverse;
+    margin-top: -119px;
+}
+#lbtn{
+    margin-left: 560px;
+    margin-top: -259px;
+    color: white;
+    font-family: cursive;
+    font-size: 55px;
+     text-shadow: 2px 0px 17px rgb(29 247 23 / 68%);
+     padding: 26px;
+     border-radius: 50%;
+     background-color: #31d100;
+     text-decoration: none;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+#lbtn:hover{
+    color:yellow;
+}
+#sbtn{
+    margin-left: 704px;
+    color: white;
+    font-family: cursive;
+    font-size: 55px;
+    text-shadow: 2px 0px 17px rgb(29 247 23 / 68%);
+    padding: 26px;
+    border-radius: 50%;
+    background-color: #31d100;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+
+}
+#sbtn:hover{
+    color:yellow;
+}
+#main2{
+    display: flex;
+}
+#left{
+    flex:1;
+}
+#right{
+    margin-top: 250px;
+    margin-left: -290px;
+}
+
+#img2{
+    margin-left: 1150px;
+    position: fixed;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,113 @@
+body{
+    background: #71a630;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #061700, #71a630);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #061700, #71a630); 
+height:97.9vh;
+width:80vh;
+}
+
+#maincontainer{
+    height: 83%;
+    background-color: #dfe5ea;
+    margin-top: 57px;
+    margin-left: 202px;
+    position: absolute;
+    width: 79em;
+}
+#header{
+    margin-top: -19px;
+    height: 56px;
+    background-color: #edf2f4;
+    display: flex;
+
+}
+#s9{
+    height:50px;
+    width:50px;
+    margin-right: 10px; 
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+#we{
+    /* font-family: cursive; */
+    background:#71a630;
+background: linear-gradient(to bottom, #71a630 52%, #061700 83%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+position: absolute;
+margin-left: 62px;
+margin-top: 10px;
+}
+#create{
+    margin-left: 54vh;
+    /* font-family: cursive; */
+}
+
+#part2{
+    height: 70vh;
+    background-color: #dfe5ea;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#part3{
+    background-color:  #edf2f4;
+    height: 60px;
+    display: flex;
+}
+.div{
+    display: flex;
+    border-bottom: 2px solid #dfe5ea;
+    margin-top: 10px; 
+    border-bottom: 2px solid #edf2f4;
+    /* justify-content: space-around; */
+    margin: 0 35px;
+}
+
+.nameheading{
+    margin-top: 22px;
+    font-weight: 100;
+    /* font-family: system-ui; */
+}
+.img{
+    height: 50px;
+    width: 50px; 
+    margin-left: 10px;
+    margin-top: 17px;
+    margin-right: 15px;
+
+}
+#groupname{
+    padding: 14px;
+    margin-top: 5px;
+    width: 110vh;
+    outline: none;
+    border: none;
+    background-color: #dfe5ea;
+    border-radius: 36px;
+    margin-left: 42px;
+}
+#submitbtn{
+    border-radius: 32px;
+    padding: 13px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    background-color: #2dc100;
+    color: white;
+    margin-left: 10px;
+    width: 80px;
+}
+#create{
+    color: #6a9d2d;
+    /* font-family:sans-serif; */
+}
+#p1{
+    height:50px;
+    width:50px;
+    margin-right: 10px; 
+    margin-left: 395px;
+    margin-top: 5px;
+    border-radius: 50%; 
+}
