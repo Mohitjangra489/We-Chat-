@@ -1,5 +1,7 @@
 # We Chat (Real time chat application)
 
+# About
+Built a real time chat application which makes a virtual online communication that provides a real-time or live transmission of text messages from sender to receiver. In this chat app, we can communicate with our friends by adding them in the friend list or by creating groups .This app works by displaying messages in real-time to one or more people or channels with the help of "Sockets" and minimally maintaining a history of the messages in the database. Here I used MongoDB database for maintaining all the data.
 
 # Screenshots of this project
 
